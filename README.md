@@ -30,8 +30,9 @@ yarn build
 
 ## ⚙️ Deployment
 
-This repo is setup to work with Heroku while living on Github. 
-- [Follow along guide](https://strapi.io/blog/deploying-a-strapi-api-on-heroku)
+This repo is setup to work with Heroku while living on Github. Images reside on AWS S3
+- [Heroku Tutorial](https://strapi.io/blog/deploying-a-strapi-api-on-heroku) - Strapi V4 Heroku Follow Through
+- [AWS S3 Tutorial](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/amazon-aws.html#configure-s3-for-image-hosting) - Strapi V4 S3 Installation 
 
 
 ## 📚 Learn more
