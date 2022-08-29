@@ -8,6 +8,9 @@
   "attributes": {
     "address": {
       "type": "string"
+    },
+    "details": {
+      "type": "json"
     }
   }
 }
