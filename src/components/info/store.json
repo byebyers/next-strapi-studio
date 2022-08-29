@@ -1,11 +1,12 @@
 {
   "collectionName": "components_info_stores",
   "info": {
-    "displayName": "Store"
+    "displayName": "Store",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Address": {
+    "address": {
       "type": "string"
     }
   }

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "location",
     "pluralName": "locations",
-    "displayName": "Location",
+    "displayName": "Locations",
     "description": ""
   },
   "options": {
@@ -12,18 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Seo": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "component": "seo.meta-tags"
     },
-    "Info": {
+    "info": {
       "type": "component",
       "repeatable": false,
       "component": "info.store"
+    },
+    "UIDField": {
+      "type": "uid"
     }
   }
 }
