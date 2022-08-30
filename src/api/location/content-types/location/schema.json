@@ -20,13 +20,16 @@
       "repeatable": false,
       "component": "seo.meta-tags"
     },
-    "info": {
-      "type": "component",
-      "repeatable": false,
-      "component": "info.store"
-    },
     "UIDField": {
       "type": "uid"
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "details": {
+      "type": "json",
+      "private": true
     }
   }
 }
