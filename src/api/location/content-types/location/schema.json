@@ -20,15 +20,16 @@
       "repeatable": false,
       "component": "seo.meta-tags"
     },
-    "UIDField": {
-      "type": "uid"
-    },
     "address": {
       "type": "string",
       "required": true
     },
-    "details": {
-      "type": "json",
+    "latitude": {
+      "type": "string",
+      "private": true
+    },
+    "longitude": {
+      "type": "string",
       "private": true
     }
   }
