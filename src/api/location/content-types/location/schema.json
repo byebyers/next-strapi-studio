@@ -25,12 +25,10 @@
       "required": true
     },
     "latitude": {
-      "type": "string",
-      "private": true
+      "type": "string"
     },
     "longitude": {
-      "type": "string",
-      "private": true
+      "type": "string"
     }
   }
 }
