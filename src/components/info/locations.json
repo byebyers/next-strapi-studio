@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_info_locations",
+  "info": {
+    "displayName": "Locations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::location.location"
+    },
+    "local": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info.local"
+    }
+  }
+}
