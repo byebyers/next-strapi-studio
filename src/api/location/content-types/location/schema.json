@@ -35,6 +35,9 @@
       "relation": "manyToOne",
       "target": "api::menu.menu",
       "inversedBy": "locations"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
