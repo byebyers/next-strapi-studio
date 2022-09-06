@@ -1,4 +1,5 @@
 const NodeGeocoder = require('node-geocoder');
+const slugify = require('slugify')
 
 const options = {
   provider: 'openstreetmap'
@@ -29,11 +30,13 @@ module.exports = {
     const res = await geocoder.geocode(`${data.address}`)
     data.latitude = res[0].latitude;
     data.longitude = res[0].longitude;
+    data.slug = slugify(data.title)
   },
   async beforeUpdate(event) {
     const { data } = event.params;
     const res = await geocoder.geocode(`${data.address}`)
     data.latitude = res[0].latitude;
     data.longitude = res[0].longitude;
+    data.slug = slugify(data.title)
   },
 };
