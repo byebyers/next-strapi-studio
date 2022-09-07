@@ -12,11 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
     },
-    "description": {
-      "type": "richtext"
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta-tags"
     }
   }
 }
