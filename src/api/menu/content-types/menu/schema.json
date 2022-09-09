@@ -21,10 +21,10 @@
       "target": "api::location.location",
       "mappedBy": "menu"
     },
-    "Locations": {
+    "editByLocation": {
       "type": "component",
       "repeatable": true,
-      "component": "info.locations"
+      "component": "menu.local"
     }
   }
 }

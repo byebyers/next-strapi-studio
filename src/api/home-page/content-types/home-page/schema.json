@@ -12,14 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.hero"
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page.hero"
+      ]
     },
     "seo": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "seo.meta-tags"
     }
   }

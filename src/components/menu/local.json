@@ -1,20 +1,21 @@
 {
-  "collectionName": "components_info_locations",
+  "collectionName": "components_info_locals",
   "info": {
-    "displayName": "Locations",
+    "displayName": "local",
     "description": ""
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "location": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::location.location"
     },
-    "local": {
-      "type": "component",
-      "repeatable": false,
-      "component": "info.local"
+    "storeTitle": {
+      "type": "string"
     }
   }
 }

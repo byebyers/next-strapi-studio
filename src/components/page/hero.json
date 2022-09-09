@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "heroImage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -20,6 +20,13 @@
     },
     "content": {
       "type": "text"
+    },
+    "cta": {
+      "type": "boolean",
+      "default": false
+    },
+    "ctaCopy": {
+      "type": "string"
     }
   }
 }
