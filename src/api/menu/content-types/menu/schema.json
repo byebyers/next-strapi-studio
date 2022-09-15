@@ -17,9 +17,9 @@
     },
     "locations": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::location.location",
-      "mappedBy": "menu"
+      "mappedBy": "menus"
     },
     "editByLocation": {
       "type": "component",

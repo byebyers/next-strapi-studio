@@ -30,14 +30,14 @@
     "longitude": {
       "type": "string"
     },
-    "menu": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::menu.menu",
-      "inversedBy": "locations"
-    },
     "slug": {
       "type": "string"
+    },
+    "menus": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::menu.menu",
+      "inversedBy": "locations"
     }
   }
 }
